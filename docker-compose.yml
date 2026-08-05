@@ -1,0 +1,12 @@
+version: "3"
+services:
+  code-server:
+    image: codercom/code-server:latest
+    container_name: codeservershadow
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./codesvproject:/home/coder/project
+    environment:
+      - PASSWORD=your_password_here
+    restart: unless-stopped
