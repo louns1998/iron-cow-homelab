@@ -51,7 +51,7 @@ services:
     restart: unless-stopped
 ```
 
-📄 Full setup log, including the permission and Git issues I ran into and how I fixed them: **[docs/code-server-setup.md](docs/code-server-setup.md)**
+📄 Full setup log, including the permission and Git issues I ran into and how I fixed them: **[Setting Up code-server on the Iron Cow Zero 1 NAS.md](Setting%20Up%20code-server%20on%20the%20Iron%20Cow%20Zero%201%20NAS.md)**
 
 ### Tailscale (secure remote access)
 
@@ -59,7 +59,7 @@ Instead of opening router ports to reach `code-server` from outside the house, I
 
 With subnet routing configured, any device on my tailnet can reach the NAS's local network (`<your-LAN-subnet>/24`) securely from anywhere, using the same local IP as always.
 
-📄 Full setup log, including the subnet routing configuration and troubleshooting: **[docs/tailscale-setup.md](docs/tailscale-setup.md)**
+📄 Full setup log, including the subnet routing configuration and troubleshooting: **[Secure Remote Access with Tailscale.md](Secure%20Remote%20Access%20with%20Tailscale.md)**
 
 📄 Simple connect/share guide: **[how-to-connect.md](how-to-connect.md)**
 
@@ -100,4 +100,4 @@ See [`hello.py`](hello.py).
 
 ---
 
-*Personal homelab project — < Shadow >*
+*Personal homelab project — <your name>*
