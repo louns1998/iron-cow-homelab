@@ -100,4 +100,4 @@ See [`hello.py`](hello.py).
 
 ---
 
-*Personal homelab project — <your name>*
+*Personal homelab project — <Shadow>*
